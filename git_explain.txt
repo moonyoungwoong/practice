@@ -1,0 +1,12 @@
+git hub 명령어 정리
+
+git config --global user.email "myheroes2@gmail.com"  : 내 계정 등록
+gif config --global user.name "문영웅" : 이름 등록
+git init : 처음 사용할 때 써야함(visual studio 터미널에서)
+git add app.txt : 작성한 파일을 깃에 업로드 하고 싶을 때 써야함(staging area에 저장됨)
+git commit -m "처음 만들었음: : 작성된 파일을 어떤 버전으로 만들었는지 메시지를 남겨두고 싶을때 써야함(repository에 저장됨)
+git add app.txt app2.txt : app.txt파일과 app2.txt 파일 두개를 깃에 업로드하고싶을때 사용
+git add . : 폴더 내에 있는 모든 파일을 깃에 업로드하고싶을때 사용
+git status : 현재 내가 어떤 파일들을 staging 해 두었는지 궁금할 때 사용
+git add&commit을 동시에 가능한 명령어도 있음(아직 모름)
+git log --all --oneline : commit 내역 조회
